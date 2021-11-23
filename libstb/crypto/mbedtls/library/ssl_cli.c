@@ -3457,7 +3457,7 @@ static int ssl_parse_new_session_ticket( mbedtls_ssl_context *ssl )
     ssl->state = MBEDTLS_SSL_SERVER_CHANGE_CIPHER_SPEC;
 
     /*
-     * Zero-length ticket means the server changed his mind and doesn't want
+     * Zero-length ticket means the server changed its mind and doesn't want
      * to send a ticket after all, so just forget it
      */
     if( ticket_len == 0 )

@@ -486,7 +486,7 @@ int mbedtls_rsa_check_pubkey( const mbedtls_rsa_context *ctx );
  *             <li>Quality: This function is not expected to perform
  *             extended quality assessments like checking that the prime
  *             factors are safe. Additionally, it is the responsibility of the
- *             user to ensure the trustworthiness of the source of his RSA
+ *             user to ensure the trustworthiness of the source of their RSA
  *             parameters, which goes beyond what is effectively checkable
  *             by the library.</li></ul>
  *
